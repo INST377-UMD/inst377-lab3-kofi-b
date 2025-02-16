@@ -1,0 +1,70 @@
+.headAFoot {
+    background-color:burlywood;
+    padding: 10px;
+    text-align: center;
+    color: #000000;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+}
+body {
+    background-color: beige; 
+    font-family: Arial, sans-serif; 
+}
+.navBar {
+    background-color: #f0f0f0; 
+    margin: 10px;
+    padding: 10px;
+}
+.navBar a {
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.navBar a:hover {
+    color: blue; 
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.mainContent {
+    width: 55%; 
+    margin: 10px;
+    padding: 10px;
+}
+.sidebar {
+    width: 30%; 
+    margin: 10px;
+    padding: 10px;
+}
+
+.mainContent {
+    background-color: #e0e0e0; 
+}
+
+.sidebar {
+    background-color: aqua; 
+}
+
+.sidebar:hover {
+    background-color:aquamarine;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input[type="text"] {
+    width: 100px;
+    transition: width 0.3s;
+}
+
+form input[type="text"]:focus {
+    width: 200px; 
+}
